@@ -36,7 +36,7 @@ document.getElementById("submit").onclick = function(){
 };
 */
 document.getElementById("submitPost").onclick = function(){
-	alert ('post 1');
+
 	vid = document.getElementById("ID").value;
 	vpass = document.getElementById("PASSWORD").value;
 
