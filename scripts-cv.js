@@ -1,7 +1,7 @@
 
 var API_ENDPOINT = "https://2yyqcglno6.execute-api.ap-southeast-1.amazonaws.com/Stage/"    // postReader1
 var API_ENDPOINT = "https://t9ahxmiiz9.execute-api.ap-southeast-1.amazonaws.com/Prod" //gowebmvc2
- 
+/*
 document.getElementById("submit").onclick = function(){
 
 	vid = document.getElementById("ID").value;
@@ -34,7 +34,7 @@ document.getElementById("submit").onclick = function(){
 	      }
 	  });
 };
-
+*/
 document.getElementById("submitPost").onclick = function(){
 	alert ('post 1');
 	vid = document.getElementById("ID").value;
