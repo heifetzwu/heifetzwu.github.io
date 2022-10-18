@@ -53,6 +53,7 @@ document.getElementById("submitPost").onclick = function(){
 	      url: API_ENDPOINT,
 	      type: 'POST',
 		  data:  JSON.stringify(inputData),
+		  async: false,
 	    //   data:  JSON.stringify(inputData),
 	      //dataType: 'json',
 	    //   contentType: 'application/json; charset=utf-8',
